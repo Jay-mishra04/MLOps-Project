@@ -1,0 +1,28 @@
+[2024-12-24T21:22:46.651+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: flight_price_prediction.train_model scheduled__2024-12-23T00:00:00+00:00 [queued]>
+[2024-12-24T21:22:46.668+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: flight_price_prediction.train_model scheduled__2024-12-23T00:00:00+00:00 [queued]>
+[2024-12-24T21:22:46.670+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2024-12-24T21:22:46.696+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): train_model> on 2024-12-23 00:00:00+00:00
+[2024-12-24T21:22:46.710+0000] {standard_task_runner.py:57} INFO - Started process 159 to run task
+[2024-12-24T21:22:46.716+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'flight_price_prediction', 'train_model', 'scheduled__2024-12-23T00:00:00+00:00', '--job-id', '89', '--raw', '--subdir', 'DAGS_FOLDER/__pycache__/price_prediction_dag.py', '--cfg-path', '/tmp/tmp5244be9f']
+[2024-12-24T21:22:46.721+0000] {standard_task_runner.py:85} INFO - Job 89: Subtask train_model
+[2024-12-24T21:22:46.813+0000] {task_command.py:416} INFO - Running <TaskInstance: flight_price_prediction.train_model scheduled__2024-12-23T00:00:00+00:00 [running]> on host 9f6d8ad0abb3
+[2024-12-24T21:22:46.950+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='flight_price_prediction' AIRFLOW_CTX_TASK_ID='train_model' AIRFLOW_CTX_EXECUTION_DATE='2024-12-23T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-12-23T00:00:00+00:00'
+[2024-12-24T21:22:46.953+0000] {logging_mixin.py:154} INFO - Error in train_model: [Errno 2] No such file or directory: '/opt/***/dags/data/transformed_data.pkl'
+[2024-12-24T21:22:46.955+0000] {python.py:194} INFO - Done. Returned value was: None
+[2024-12-24T21:22:46.971+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=flight_price_prediction, task_id=train_model, execution_date=20241223T000000, start_date=20241224T212246, end_date=20241224T212246
+[2024-12-24T21:22:47.014+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2024-12-24T21:22:47.052+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-12-24T21:36:47.291+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: flight_price_prediction.train_model scheduled__2024-12-23T00:00:00+00:00 [queued]>
+[2024-12-24T21:36:47.306+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: flight_price_prediction.train_model scheduled__2024-12-23T00:00:00+00:00 [queued]>
+[2024-12-24T21:36:47.308+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2024-12-24T21:36:47.327+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): train_model> on 2024-12-23 00:00:00+00:00
+[2024-12-24T21:36:47.337+0000] {standard_task_runner.py:57} INFO - Started process 418 to run task
+[2024-12-24T21:36:47.342+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'flight_price_prediction', 'train_model', 'scheduled__2024-12-23T00:00:00+00:00', '--job-id', '93', '--raw', '--subdir', 'DAGS_FOLDER/price_prediction.py', '--cfg-path', '/tmp/tmp3s81ny0u']
+[2024-12-24T21:36:47.347+0000] {standard_task_runner.py:85} INFO - Job 93: Subtask train_model
+[2024-12-24T21:36:47.420+0000] {task_command.py:416} INFO - Running <TaskInstance: flight_price_prediction.train_model scheduled__2024-12-23T00:00:00+00:00 [running]> on host 9f6d8ad0abb3
+[2024-12-24T21:36:47.540+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='flight_price_prediction' AIRFLOW_CTX_TASK_ID='train_model' AIRFLOW_CTX_EXECUTION_DATE='2024-12-23T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-12-23T00:00:00+00:00'
+[2024-12-24T21:37:15.841+0000] {logging_mixin.py:154} INFO - Model trained and saved
+[2024-12-24T21:37:15.842+0000] {python.py:194} INFO - Done. Returned value was: None
+[2024-12-24T21:37:15.860+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=flight_price_prediction, task_id=train_model, execution_date=20241223T000000, start_date=20241224T213647, end_date=20241224T213715
+[2024-12-24T21:37:15.897+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2024-12-24T21:37:15.931+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,14 @@
+[2024-12-21T19:50:01.399+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: scrape_and_merge_flipkart_iphone.scrape_and_merge_flipkart_iphone_data scheduled__2024-12-21T19:49:00+00:00 [queued]>
+[2024-12-21T19:50:01.409+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: scrape_and_merge_flipkart_iphone.scrape_and_merge_flipkart_iphone_data scheduled__2024-12-21T19:49:00+00:00 [queued]>
+[2024-12-21T19:50:01.411+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2024-12-21T19:50:01.426+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): scrape_and_merge_flipkart_iphone_data> on 2024-12-21 19:49:00+00:00
+[2024-12-21T19:50:01.433+0000] {standard_task_runner.py:57} INFO - Started process 475 to run task
+[2024-12-21T19:50:01.437+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'scrape_and_merge_flipkart_iphone', 'scrape_and_merge_flipkart_iphone_data', 'scheduled__2024-12-21T19:49:00+00:00', '--job-id', '22', '--raw', '--subdir', 'DAGS_FOLDER/basic_scraper.py', '--cfg-path', '/tmp/tmprun76kpr']
+[2024-12-21T19:50:01.441+0000] {standard_task_runner.py:85} INFO - Job 22: Subtask scrape_and_merge_flipkart_iphone_data
+[2024-12-21T19:50:01.500+0000] {task_command.py:416} INFO - Running <TaskInstance: scrape_and_merge_flipkart_iphone.scrape_and_merge_flipkart_iphone_data scheduled__2024-12-21T19:49:00+00:00 [running]> on host 501c49261416
+[2024-12-21T19:50:01.589+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Mritunjay' AIRFLOW_CTX_DAG_ID='scrape_and_merge_flipkart_iphone' AIRFLOW_CTX_TASK_ID='scrape_and_merge_flipkart_iphone_data' AIRFLOW_CTX_EXECUTION_DATE='2024-12-21T19:49:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-12-21T19:49:00+00:00'
+[2024-12-21T19:50:02.564+0000] {logging_mixin.py:154} INFO - Scraping and merging completed successfully!
+[2024-12-21T19:50:02.566+0000] {python.py:194} INFO - Done. Returned value was: None
+[2024-12-21T19:50:02.576+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=scrape_and_merge_flipkart_iphone, task_id=scrape_and_merge_flipkart_iphone_data, execution_date=20241221T194900, start_date=20241221T195001, end_date=20241221T195002
+[2024-12-21T19:50:02.618+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2024-12-21T19:50:02.637+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

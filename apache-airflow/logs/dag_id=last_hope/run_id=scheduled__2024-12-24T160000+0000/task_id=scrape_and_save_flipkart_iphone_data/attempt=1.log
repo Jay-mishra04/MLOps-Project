@@ -1,0 +1,14 @@
+[2024-12-24T17:55:15.842+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: last_hope.scrape_and_save_flipkart_iphone_data scheduled__2024-12-24T16:00:00+00:00 [queued]>
+[2024-12-24T17:55:15.857+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: last_hope.scrape_and_save_flipkart_iphone_data scheduled__2024-12-24T16:00:00+00:00 [queued]>
+[2024-12-24T17:55:15.859+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2024-12-24T17:55:15.879+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): scrape_and_save_flipkart_iphone_data> on 2024-12-24 16:00:00+00:00
+[2024-12-24T17:55:15.888+0000] {standard_task_runner.py:57} INFO - Started process 2121 to run task
+[2024-12-24T17:55:15.894+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'last_hope', 'scrape_and_save_flipkart_iphone_data', 'scheduled__2024-12-24T16:00:00+00:00', '--job-id', '82', '--raw', '--subdir', 'DAGS_FOLDER/last_hope.py', '--cfg-path', '/tmp/tmp8ldsiz66']
+[2024-12-24T17:55:15.899+0000] {standard_task_runner.py:85} INFO - Job 82: Subtask scrape_and_save_flipkart_iphone_data
+[2024-12-24T17:55:16.012+0000] {task_command.py:416} INFO - Running <TaskInstance: last_hope.scrape_and_save_flipkart_iphone_data scheduled__2024-12-24T16:00:00+00:00 [running]> on host 501c49261416
+[2024-12-24T17:55:16.140+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Mritunjay' AIRFLOW_CTX_DAG_ID='last_hope' AIRFLOW_CTX_TASK_ID='scrape_and_save_flipkart_iphone_data' AIRFLOW_CTX_EXECUTION_DATE='2024-12-24T16:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-12-24T16:00:00+00:00'
+[2024-12-24T17:55:18.181+0000] {logging_mixin.py:154} INFO - Scraping and saving completed successfully!
+[2024-12-24T17:55:18.184+0000] {python.py:194} INFO - Done. Returned value was: None
+[2024-12-24T17:55:18.197+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=last_hope, task_id=scrape_and_save_flipkart_iphone_data, execution_date=20241224T160000, start_date=20241224T175515, end_date=20241224T175518
+[2024-12-24T17:55:18.239+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2024-12-24T17:55:18.278+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

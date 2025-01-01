@@ -1,0 +1,203 @@
+[2024-12-25T19:06:21.624+0000] {processor.py:157} INFO - Started process (PID=85) to work on /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:06:21.626+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/complete_workflow.py for tasks to queue
+[2024-12-25T19:06:21.631+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:06:21.630+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:06:24.538+0000] {processor.py:839} INFO - DAG(s) dict_keys(['complete_workflow']) retrieved from /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:06:24.613+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:06:24.612+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-12-25T19:06:24.879+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:06:24.879+0000] {dag.py:3722} INFO - Setting next_dagrun for complete_workflow to 2024-12-25T18:00:00+00:00, run_after=2024-12-25T19:00:00+00:00
+[2024-12-25T19:06:24.925+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/complete_workflow.py took 3.309 seconds
+[2024-12-25T19:06:55.360+0000] {processor.py:157} INFO - Started process (PID=107) to work on /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:06:55.366+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/complete_workflow.py for tasks to queue
+[2024-12-25T19:06:55.376+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:06:55.375+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:06:57.320+0000] {processor.py:839} INFO - DAG(s) dict_keys(['complete_workflow']) retrieved from /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:06:57.370+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:06:57.367+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-12-25T19:06:57.422+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:06:57.422+0000] {dag.py:3722} INFO - Setting next_dagrun for complete_workflow to 2024-12-25T18:00:00+00:00, run_after=2024-12-25T19:00:00+00:00
+[2024-12-25T19:06:57.457+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/complete_workflow.py took 2.104 seconds
+[2024-12-25T19:07:28.007+0000] {processor.py:157} INFO - Started process (PID=129) to work on /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:07:28.009+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/complete_workflow.py for tasks to queue
+[2024-12-25T19:07:28.013+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:07:28.013+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:07:30.120+0000] {processor.py:839} INFO - DAG(s) dict_keys(['complete_workflow']) retrieved from /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:07:30.157+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:07:30.156+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-12-25T19:07:30.202+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:07:30.202+0000] {dag.py:3722} INFO - Setting next_dagrun for complete_workflow to 2024-12-25T18:00:00+00:00, run_after=2024-12-25T19:00:00+00:00
+[2024-12-25T19:07:30.239+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/complete_workflow.py took 2.240 seconds
+[2024-12-25T19:08:00.488+0000] {processor.py:157} INFO - Started process (PID=150) to work on /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:08:00.495+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/complete_workflow.py for tasks to queue
+[2024-12-25T19:08:00.502+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:08:00.502+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:08:02.426+0000] {processor.py:839} INFO - DAG(s) dict_keys(['complete_workflow']) retrieved from /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:08:02.461+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:08:02.461+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-12-25T19:08:02.571+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:08:02.571+0000] {dag.py:3722} INFO - Setting next_dagrun for complete_workflow to 2024-12-25T18:00:00+00:00, run_after=2024-12-25T19:00:00+00:00
+[2024-12-25T19:08:02.611+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/complete_workflow.py took 2.141 seconds
+[2024-12-25T19:08:32.783+0000] {processor.py:157} INFO - Started process (PID=172) to work on /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:08:32.785+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/complete_workflow.py for tasks to queue
+[2024-12-25T19:08:32.789+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:08:32.789+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:08:34.815+0000] {processor.py:839} INFO - DAG(s) dict_keys(['complete_workflow']) retrieved from /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:08:34.858+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:08:34.857+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-12-25T19:08:34.898+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:08:34.897+0000] {dag.py:3722} INFO - Setting next_dagrun for complete_workflow to 2024-12-25T18:00:00+00:00, run_after=2024-12-25T19:00:00+00:00
+[2024-12-25T19:08:34.938+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/complete_workflow.py took 2.161 seconds
+[2024-12-25T19:09:05.125+0000] {processor.py:157} INFO - Started process (PID=195) to work on /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:09:05.128+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/complete_workflow.py for tasks to queue
+[2024-12-25T19:09:05.132+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:09:05.132+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:09:06.994+0000] {processor.py:839} INFO - DAG(s) dict_keys(['complete_workflow']) retrieved from /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:09:07.027+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:09:07.026+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-12-25T19:09:07.065+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:09:07.064+0000] {dag.py:3722} INFO - Setting next_dagrun for complete_workflow to 2024-12-25T18:00:00+00:00, run_after=2024-12-25T19:00:00+00:00
+[2024-12-25T19:09:07.095+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/complete_workflow.py took 1.978 seconds
+[2024-12-25T19:09:37.535+0000] {processor.py:157} INFO - Started process (PID=216) to work on /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:09:37.542+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/complete_workflow.py for tasks to queue
+[2024-12-25T19:09:37.548+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:09:37.548+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:09:39.420+0000] {processor.py:839} INFO - DAG(s) dict_keys(['complete_workflow']) retrieved from /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:09:39.455+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:09:39.454+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-12-25T19:09:39.492+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:09:39.492+0000] {dag.py:3722} INFO - Setting next_dagrun for complete_workflow to 2024-12-25T18:00:00+00:00, run_after=2024-12-25T19:00:00+00:00
+[2024-12-25T19:09:39.534+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/complete_workflow.py took 2.007 seconds
+[2024-12-25T19:10:09.771+0000] {processor.py:157} INFO - Started process (PID=245) to work on /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:10:09.774+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/complete_workflow.py for tasks to queue
+[2024-12-25T19:10:09.779+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:10:09.778+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:10:11.712+0000] {processor.py:839} INFO - DAG(s) dict_keys(['complete_workflow']) retrieved from /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:10:11.758+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:10:11.757+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-12-25T19:10:11.797+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:10:11.796+0000] {dag.py:3722} INFO - Setting next_dagrun for complete_workflow to 2024-12-25T18:00:00+00:00, run_after=2024-12-25T19:00:00+00:00
+[2024-12-25T19:10:11.851+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/complete_workflow.py took 2.087 seconds
+[2024-12-25T19:10:42.014+0000] {processor.py:157} INFO - Started process (PID=267) to work on /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:10:42.016+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/complete_workflow.py for tasks to queue
+[2024-12-25T19:10:42.021+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:10:42.021+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:10:43.928+0000] {processor.py:839} INFO - DAG(s) dict_keys(['complete_workflow']) retrieved from /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:10:43.959+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:10:43.959+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-12-25T19:10:43.995+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:10:43.994+0000] {dag.py:3722} INFO - Setting next_dagrun for complete_workflow to 2024-12-25T18:00:00+00:00, run_after=2024-12-25T19:00:00+00:00
+[2024-12-25T19:10:44.033+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/complete_workflow.py took 2.025 seconds
+[2024-12-25T19:11:14.218+0000] {processor.py:157} INFO - Started process (PID=289) to work on /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:11:14.220+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/complete_workflow.py for tasks to queue
+[2024-12-25T19:11:14.224+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:11:14.223+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:11:15.985+0000] {processor.py:839} INFO - DAG(s) dict_keys(['complete_workflow']) retrieved from /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:11:16.018+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:11:16.017+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-12-25T19:11:16.066+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:11:16.065+0000] {dag.py:3722} INFO - Setting next_dagrun for complete_workflow to 2024-12-25T18:00:00+00:00, run_after=2024-12-25T19:00:00+00:00
+[2024-12-25T19:11:16.111+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/complete_workflow.py took 1.898 seconds
+[2024-12-25T19:11:46.356+0000] {processor.py:157} INFO - Started process (PID=310) to work on /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:11:46.358+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/complete_workflow.py for tasks to queue
+[2024-12-25T19:11:46.364+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:11:46.364+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:11:48.248+0000] {processor.py:839} INFO - DAG(s) dict_keys(['complete_workflow']) retrieved from /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:11:48.298+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:11:48.297+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-12-25T19:11:48.339+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:11:48.338+0000] {dag.py:3722} INFO - Setting next_dagrun for complete_workflow to 2024-12-25T18:00:00+00:00, run_after=2024-12-25T19:00:00+00:00
+[2024-12-25T19:11:48.389+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/complete_workflow.py took 2.039 seconds
+[2024-12-25T19:12:18.573+0000] {processor.py:157} INFO - Started process (PID=332) to work on /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:12:18.576+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/complete_workflow.py for tasks to queue
+[2024-12-25T19:12:18.582+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:12:18.581+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:12:20.459+0000] {processor.py:839} INFO - DAG(s) dict_keys(['complete_workflow']) retrieved from /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:12:20.494+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:12:20.493+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-12-25T19:12:20.529+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:12:20.529+0000] {dag.py:3722} INFO - Setting next_dagrun for complete_workflow to 2024-12-25T18:00:00+00:00, run_after=2024-12-25T19:00:00+00:00
+[2024-12-25T19:12:20.571+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/complete_workflow.py took 2.010 seconds
+[2024-12-25T19:12:50.841+0000] {processor.py:157} INFO - Started process (PID=354) to work on /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:12:50.843+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/complete_workflow.py for tasks to queue
+[2024-12-25T19:12:50.849+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:12:50.848+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:12:52.615+0000] {processor.py:839} INFO - DAG(s) dict_keys(['complete_workflow']) retrieved from /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:12:52.655+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:12:52.654+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-12-25T19:12:52.700+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:12:52.700+0000] {dag.py:3722} INFO - Setting next_dagrun for complete_workflow to 2024-12-25T18:00:00+00:00, run_after=2024-12-25T19:00:00+00:00
+[2024-12-25T19:12:52.733+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/complete_workflow.py took 1.899 seconds
+[2024-12-25T19:13:22.959+0000] {processor.py:157} INFO - Started process (PID=376) to work on /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:13:22.963+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/complete_workflow.py for tasks to queue
+[2024-12-25T19:13:22.969+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:13:22.968+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:13:24.704+0000] {processor.py:839} INFO - DAG(s) dict_keys(['complete_workflow']) retrieved from /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:13:24.898+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:13:24.897+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-12-25T19:13:24.944+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:13:24.943+0000] {dag.py:3722} INFO - Setting next_dagrun for complete_workflow to 2024-12-25T18:00:00+00:00, run_after=2024-12-25T19:00:00+00:00
+[2024-12-25T19:13:24.997+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/complete_workflow.py took 2.045 seconds
+[2024-12-25T19:13:55.217+0000] {processor.py:157} INFO - Started process (PID=398) to work on /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:13:55.220+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/complete_workflow.py for tasks to queue
+[2024-12-25T19:13:55.225+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:13:55.225+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:13:56.973+0000] {processor.py:839} INFO - DAG(s) dict_keys(['complete_workflow']) retrieved from /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:13:57.007+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:13:57.007+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-12-25T19:13:57.038+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:13:57.037+0000] {dag.py:3722} INFO - Setting next_dagrun for complete_workflow to 2024-12-25T18:00:00+00:00, run_after=2024-12-25T19:00:00+00:00
+[2024-12-25T19:13:57.072+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/complete_workflow.py took 1.861 seconds
+[2024-12-25T19:14:27.484+0000] {processor.py:157} INFO - Started process (PID=420) to work on /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:14:27.486+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/complete_workflow.py for tasks to queue
+[2024-12-25T19:14:27.489+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:14:27.489+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:14:29.350+0000] {processor.py:839} INFO - DAG(s) dict_keys(['complete_workflow']) retrieved from /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:14:29.400+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:14:29.397+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-12-25T19:14:29.457+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:14:29.457+0000] {dag.py:3722} INFO - Setting next_dagrun for complete_workflow to 2024-12-25T18:00:00+00:00, run_after=2024-12-25T19:00:00+00:00
+[2024-12-25T19:14:29.524+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/complete_workflow.py took 2.048 seconds
+[2024-12-25T19:14:59.733+0000] {processor.py:157} INFO - Started process (PID=442) to work on /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:14:59.735+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/complete_workflow.py for tasks to queue
+[2024-12-25T19:14:59.739+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:14:59.739+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:15:01.412+0000] {processor.py:839} INFO - DAG(s) dict_keys(['complete_workflow']) retrieved from /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:15:01.632+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:15:01.631+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-12-25T19:15:01.674+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:15:01.674+0000] {dag.py:3722} INFO - Setting next_dagrun for complete_workflow to 2024-12-25T18:00:00+00:00, run_after=2024-12-25T19:00:00+00:00
+[2024-12-25T19:15:01.708+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/complete_workflow.py took 1.985 seconds
+[2024-12-25T19:15:31.958+0000] {processor.py:157} INFO - Started process (PID=464) to work on /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:15:31.962+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/complete_workflow.py for tasks to queue
+[2024-12-25T19:15:31.969+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:15:31.968+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:15:33.867+0000] {processor.py:839} INFO - DAG(s) dict_keys(['complete_workflow']) retrieved from /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:15:33.900+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:15:33.899+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-12-25T19:15:33.936+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:15:33.936+0000] {dag.py:3722} INFO - Setting next_dagrun for complete_workflow to 2024-12-25T18:00:00+00:00, run_after=2024-12-25T19:00:00+00:00
+[2024-12-25T19:15:33.978+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/complete_workflow.py took 2.031 seconds
+[2024-12-25T19:16:04.349+0000] {processor.py:157} INFO - Started process (PID=486) to work on /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:16:04.353+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/complete_workflow.py for tasks to queue
+[2024-12-25T19:16:04.362+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:16:04.361+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:16:06.161+0000] {processor.py:839} INFO - DAG(s) dict_keys(['complete_workflow']) retrieved from /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:16:06.199+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:16:06.199+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-12-25T19:16:06.242+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:16:06.242+0000] {dag.py:3722} INFO - Setting next_dagrun for complete_workflow to 2024-12-25T18:00:00+00:00, run_after=2024-12-25T19:00:00+00:00
+[2024-12-25T19:16:06.273+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/complete_workflow.py took 1.930 seconds
+[2024-12-25T19:16:36.697+0000] {processor.py:157} INFO - Started process (PID=508) to work on /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:16:36.701+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/complete_workflow.py for tasks to queue
+[2024-12-25T19:16:36.713+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:16:36.713+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:16:38.473+0000] {processor.py:839} INFO - DAG(s) dict_keys(['complete_workflow']) retrieved from /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:16:38.517+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:16:38.516+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-12-25T19:16:38.561+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:16:38.560+0000] {dag.py:3722} INFO - Setting next_dagrun for complete_workflow to 2024-12-25T18:00:00+00:00, run_after=2024-12-25T19:00:00+00:00
+[2024-12-25T19:16:38.599+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/complete_workflow.py took 1.912 seconds
+[2024-12-25T19:17:08.832+0000] {processor.py:157} INFO - Started process (PID=530) to work on /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:17:08.836+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/complete_workflow.py for tasks to queue
+[2024-12-25T19:17:08.840+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:17:08.840+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:17:10.740+0000] {processor.py:839} INFO - DAG(s) dict_keys(['complete_workflow']) retrieved from /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:17:10.779+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:17:10.778+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-12-25T19:17:10.821+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:17:10.820+0000] {dag.py:3722} INFO - Setting next_dagrun for complete_workflow to 2024-12-25T18:00:00+00:00, run_after=2024-12-25T19:00:00+00:00
+[2024-12-25T19:17:10.865+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/complete_workflow.py took 2.040 seconds
+[2024-12-25T19:17:41.120+0000] {processor.py:157} INFO - Started process (PID=559) to work on /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:17:41.123+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/complete_workflow.py for tasks to queue
+[2024-12-25T19:17:41.128+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:17:41.127+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:17:42.956+0000] {processor.py:839} INFO - DAG(s) dict_keys(['complete_workflow']) retrieved from /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:17:42.993+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:17:42.993+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-12-25T19:17:43.030+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:17:43.030+0000] {dag.py:3722} INFO - Setting next_dagrun for complete_workflow to 2024-12-25T18:00:00+00:00, run_after=2024-12-25T19:00:00+00:00
+[2024-12-25T19:17:43.067+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/complete_workflow.py took 1.955 seconds
+[2024-12-25T19:18:13.292+0000] {processor.py:157} INFO - Started process (PID=581) to work on /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:18:13.302+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/complete_workflow.py for tasks to queue
+[2024-12-25T19:18:13.307+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:18:13.307+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:18:14.961+0000] {processor.py:839} INFO - DAG(s) dict_keys(['complete_workflow']) retrieved from /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:18:15.200+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:18:15.198+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-12-25T19:18:15.238+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:18:15.238+0000] {dag.py:3722} INFO - Setting next_dagrun for complete_workflow to 2024-12-25T18:00:00+00:00, run_after=2024-12-25T19:00:00+00:00
+[2024-12-25T19:18:15.288+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/complete_workflow.py took 2.001 seconds
+[2024-12-25T19:18:45.451+0000] {processor.py:157} INFO - Started process (PID=603) to work on /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:18:45.453+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/complete_workflow.py for tasks to queue
+[2024-12-25T19:18:45.458+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:18:45.457+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:18:47.319+0000] {processor.py:839} INFO - DAG(s) dict_keys(['complete_workflow']) retrieved from /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:18:47.367+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:18:47.366+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-12-25T19:18:47.405+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:18:47.405+0000] {dag.py:3722} INFO - Setting next_dagrun for complete_workflow to 2024-12-25T18:00:00+00:00, run_after=2024-12-25T19:00:00+00:00
+[2024-12-25T19:18:47.437+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/complete_workflow.py took 1.993 seconds
+[2024-12-25T19:19:17.691+0000] {processor.py:157} INFO - Started process (PID=625) to work on /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:19:17.693+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/complete_workflow.py for tasks to queue
+[2024-12-25T19:19:17.699+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:19:17.698+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:19:19.560+0000] {processor.py:839} INFO - DAG(s) dict_keys(['complete_workflow']) retrieved from /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:19:19.601+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:19:19.600+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-12-25T19:19:19.645+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:19:19.645+0000] {dag.py:3722} INFO - Setting next_dagrun for complete_workflow to 2024-12-25T18:00:00+00:00, run_after=2024-12-25T19:00:00+00:00
+[2024-12-25T19:19:19.699+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/complete_workflow.py took 2.015 seconds
+[2024-12-25T19:19:49.884+0000] {processor.py:157} INFO - Started process (PID=647) to work on /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:19:49.886+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/complete_workflow.py for tasks to queue
+[2024-12-25T19:19:49.890+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:19:49.890+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:19:51.658+0000] {processor.py:839} INFO - DAG(s) dict_keys(['complete_workflow']) retrieved from /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:19:51.907+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:19:51.906+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-12-25T19:19:51.952+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:19:51.952+0000] {dag.py:3722} INFO - Setting next_dagrun for complete_workflow to 2024-12-25T18:00:00+00:00, run_after=2024-12-25T19:00:00+00:00
+[2024-12-25T19:19:51.996+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/complete_workflow.py took 2.118 seconds
+[2024-12-25T19:20:22.218+0000] {processor.py:157} INFO - Started process (PID=668) to work on /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:20:22.220+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/complete_workflow.py for tasks to queue
+[2024-12-25T19:20:22.224+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:20:22.223+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:20:23.940+0000] {processor.py:839} INFO - DAG(s) dict_keys(['complete_workflow']) retrieved from /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:20:23.974+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:20:23.973+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-12-25T19:20:24.006+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:20:24.006+0000] {dag.py:3722} INFO - Setting next_dagrun for complete_workflow to 2024-12-25T18:00:00+00:00, run_after=2024-12-25T19:00:00+00:00
+[2024-12-25T19:20:24.050+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/complete_workflow.py took 1.840 seconds
+[2024-12-25T19:20:54.291+0000] {processor.py:157} INFO - Started process (PID=691) to work on /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:20:54.293+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/complete_workflow.py for tasks to queue
+[2024-12-25T19:20:54.297+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:20:54.297+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:20:56.207+0000] {processor.py:839} INFO - DAG(s) dict_keys(['complete_workflow']) retrieved from /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:20:56.252+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:20:56.251+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-12-25T19:20:56.288+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:20:56.287+0000] {dag.py:3722} INFO - Setting next_dagrun for complete_workflow to 2024-12-25T18:00:00+00:00, run_after=2024-12-25T19:00:00+00:00
+[2024-12-25T19:20:56.330+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/complete_workflow.py took 2.047 seconds
+[2024-12-25T19:21:26.664+0000] {processor.py:157} INFO - Started process (PID=713) to work on /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:21:26.666+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/complete_workflow.py for tasks to queue
+[2024-12-25T19:21:26.670+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:21:26.670+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:21:28.496+0000] {processor.py:839} INFO - DAG(s) dict_keys(['complete_workflow']) retrieved from /opt/airflow/dags/complete_workflow.py
+[2024-12-25T19:21:28.730+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:21:28.728+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-12-25T19:21:28.765+0000] {logging_mixin.py:154} INFO - [2024-12-25T19:21:28.765+0000] {dag.py:3722} INFO - Setting next_dagrun for complete_workflow to 2024-12-25T18:00:00+00:00, run_after=2024-12-25T19:00:00+00:00
+[2024-12-25T19:21:28.801+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/complete_workflow.py took 2.147 seconds

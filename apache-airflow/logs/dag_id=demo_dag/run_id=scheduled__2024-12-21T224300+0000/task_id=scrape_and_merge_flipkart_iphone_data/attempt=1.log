@@ -1,0 +1,14 @@
+[2024-12-21T22:44:02.006+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: demo_dag.scrape_and_merge_flipkart_iphone_data scheduled__2024-12-21T22:43:00+00:00 [queued]>
+[2024-12-21T22:44:02.023+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: demo_dag.scrape_and_merge_flipkart_iphone_data scheduled__2024-12-21T22:43:00+00:00 [queued]>
+[2024-12-21T22:44:02.024+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2024-12-21T22:44:02.063+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): scrape_and_merge_flipkart_iphone_data> on 2024-12-21 22:43:00+00:00
+[2024-12-21T22:44:02.074+0000] {standard_task_runner.py:57} INFO - Started process 3095 to run task
+[2024-12-21T22:44:02.082+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'demo_dag', 'scrape_and_merge_flipkart_iphone_data', 'scheduled__2024-12-21T22:43:00+00:00', '--job-id', '51', '--raw', '--subdir', 'DAGS_FOLDER/upgradation.py', '--cfg-path', '/tmp/tmped0ren3x']
+[2024-12-21T22:44:02.089+0000] {standard_task_runner.py:85} INFO - Job 51: Subtask scrape_and_merge_flipkart_iphone_data
+[2024-12-21T22:44:02.175+0000] {task_command.py:416} INFO - Running <TaskInstance: demo_dag.scrape_and_merge_flipkart_iphone_data scheduled__2024-12-21T22:43:00+00:00 [running]> on host 501c49261416
+[2024-12-21T22:44:02.368+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Mritunjay' AIRFLOW_CTX_DAG_ID='demo_dag' AIRFLOW_CTX_TASK_ID='scrape_and_merge_flipkart_iphone_data' AIRFLOW_CTX_EXECUTION_DATE='2024-12-21T22:43:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-12-21T22:43:00+00:00'
+[2024-12-21T22:44:03.943+0000] {logging_mixin.py:154} INFO - Error occurred while scraping: 'Price'
+[2024-12-21T22:44:03.946+0000] {python.py:194} INFO - Done. Returned value was: None
+[2024-12-21T22:44:03.963+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=demo_dag, task_id=scrape_and_merge_flipkart_iphone_data, execution_date=20241221T224300, start_date=20241221T224402, end_date=20241221T224403
+[2024-12-21T22:44:04.040+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2024-12-21T22:44:04.078+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

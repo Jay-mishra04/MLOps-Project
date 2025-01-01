@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Price Prediction</title>
+</head>
+<body>
+    <h1>Flight Price Prediction</h1>
+    <p>Enter your flight details below to predict the price:</p>
+    
+    <form action="/predict" method="post">
+        <!-- From -->
+        <label for="from">From:</label>
+        <select name="from">
+            <option value="Recife (PE)">Recife (PE)</option>
+            <option value="Florianopolis (SC)">Florianopolis (SC)</option>
+            <option value="Brasilia (DF)">Brasilia (DF)</option>
+            <option value="Aracaju (SE)">Aracaju (SE)</option>
+            <option value="Salvador (BH)">Salvador (BH)</option>
+            <option value="Campo Grande (MS)">Campo Grande (MS)</option>
+            <option value="Sao Paulo (SP)">Sao Paulo (SP)</option>
+            <option value="Natal (RN)">Natal (RN)</option>
+            <option value="Rio de Janeiro (RJ)">Rio de Janeiro (RJ)</option>
+        </select>
+        <br><br>
+
+        <!-- To -->
+        <label for="to">To:</label>
+        <select name="to">
+            <option value="Florianopolis (SC)">Florianopolis (SC)</option>
+            <option value="Recife (PE)">Recife (PE)</option>
+            <option value="Brasilia (DF)">Brasilia (DF)</option>
+            <option value="Salvador (BH)">Salvador (BH)</option>
+            <option value="Aracaju (SE)">Aracaju (SE)</option>
+            <option value="Campo Grande (MS)">Campo Grande (MS)</option>
+            <option value="Sao Paulo (SP)">Sao Paulo (SP)</option>
+            <option value="Natal (RN)">Natal (RN)</option>
+            <option value="Rio de Janeiro (RJ)">Rio de Janeiro (RJ)</option>
+        </select>
+        <br><br>
+
+        <!-- Flight Type -->
+        <label for="flightType">Flight Type:</label>
+        <select name="flightType">
+            <option value="firstClass">First Class</option>
+            <option value="economic">Economic</option>
+            <option value="premium">Premium</option>
+        </select>
+        <br><br>
+
+        <!-- Agency -->
+        <label for="agency">Agency:</label>
+        <select name="agency">
+            <option value="FlyingDrops">FlyingDrops</option>
+            <option value="CloudFy">CloudFy</option>
+            <option value="Rainbow">Rainbow</option>
+        </select>
+        <br><br>
+
+        <!-- Submit Button -->
+        <button type="submit">Predict Price</button>
+    </form>
+
+    <!-- Display Prediction Result -->
+    {% if prediction is not none %}
+    <h2>Flight Details</h2>
+    <p><b>From:</b> {{ user_from }}</p>
+    <p><b>To:</b> {{ user_to}}</p>
+    <p><b>Flight Type:</b> {{ user_flighttype }}</p>
+    <p><b>Agency:</b> {{ user_agency}}</p>
+    <h2>Predicted Price: {{ prediction }}</h2>
+    {% endif %}
+</body>
+</html>

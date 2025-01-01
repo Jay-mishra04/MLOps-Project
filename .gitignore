@@ -1,0 +1,3 @@
+ignore_files
+apache-airflow/logs/scheduler/latest
+virtualenv

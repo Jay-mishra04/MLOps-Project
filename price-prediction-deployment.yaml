@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: price-prediction-deployment
+  labels:
+    app: price-prediction-application
+
+spec:
+  replicas: 3
+  selector:
+    matchLabels:    # Correct capitalization
+      app: price-prediction-app
+  
+  template:
+    metadata:
+      labels:
+        app: price-prediction-app
+
+    spec:
+      containers:
+      - name: price-prediction-container
+        image: mritunjay411/price-prediction-app:latest
+        ports:
+        - containerPort: 5000
+

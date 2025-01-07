@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/jabcd/OneDrive/Desktop/All%20Desktop%20Folders/MLOps%20Project/mlruns/229904917682669617/9015cd0c62ac42e8b501355217ab312a/artifacts
+deleted_time: 1736107288333
+end_time: 1735937899741
+entry_point_name: ''
+experiment_id: '229904917682669617'
+lifecycle_stage: deleted
+run_id: 9015cd0c62ac42e8b501355217ab312a
+run_name: XGBoost Regression Model
+run_uuid: 9015cd0c62ac42e8b501355217ab312a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735937891536
+status: 3
+tags: []
+user_id: jabcd

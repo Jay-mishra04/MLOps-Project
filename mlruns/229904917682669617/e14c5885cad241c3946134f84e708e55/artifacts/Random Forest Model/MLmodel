@@ -1,0 +1,45 @@
+artifact_path: Random Forest Model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.4
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.4.2
+mlflow_version: 2.19.0
+model_size_bytes: 7077554
+model_uuid: 56f909520d874ab3ab5f407f3fc49e94
+run_id: e14c5885cad241c3946134f84e708e55
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "boolean", "name": "from_Brasilia (DF)", "required": true}, {"type":
+    "boolean", "name": "from_Campo Grande (MS)", "required": true}, {"type": "boolean",
+    "name": "from_Florianopolis (SC)", "required": true}, {"type": "boolean", "name":
+    "from_Natal (RN)", "required": true}, {"type": "boolean", "name": "from_Recife
+    (PE)", "required": true}, {"type": "boolean", "name": "from_Rio de Janeiro (RJ)",
+    "required": true}, {"type": "boolean", "name": "from_Salvador (BH)", "required":
+    true}, {"type": "boolean", "name": "from_Sao Paulo (SP)", "required": true}, {"type":
+    "boolean", "name": "to_Brasilia (DF)", "required": true}, {"type": "boolean",
+    "name": "to_Campo Grande (MS)", "required": true}, {"type": "boolean", "name":
+    "to_Florianopolis (SC)", "required": true}, {"type": "boolean", "name": "to_Natal
+    (RN)", "required": true}, {"type": "boolean", "name": "to_Recife (PE)", "required":
+    true}, {"type": "boolean", "name": "to_Rio de Janeiro (RJ)", "required": true},
+    {"type": "boolean", "name": "to_Salvador (BH)", "required": true}, {"type": "boolean",
+    "name": "to_Sao Paulo (SP)", "required": true}, {"type": "boolean", "name": "flightType_firstClass",
+    "required": true}, {"type": "boolean", "name": "flightType_premium", "required":
+    true}, {"type": "boolean", "name": "agency_FlyingDrops", "required": true}, {"type":
+    "boolean", "name": "agency_Rainbow", "required": true}]'
+  outputs: '[{"type": "double", "required": true}]'
+  params: null
+utc_time_created: '2025-01-03 20:59:22.853971'

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/jabcd/OneDrive/Desktop/All%20Desktop%20Folders/MLOps%20Project/mlruns/229904917682669617/97f726e036ef41c8ab2a183c8add29c4/artifacts
+end_time: 1736107082831
+entry_point_name: ''
+experiment_id: '229904917682669617'
+lifecycle_stage: active
+run_id: 97f726e036ef41c8ab2a183c8add29c4
+run_name: Decision Tree Regression Model
+run_uuid: 97f726e036ef41c8ab2a183c8add29c4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736107077542
+status: 3
+tags: []
+user_id: jabcd

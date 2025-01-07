@@ -1,0 +1,16 @@
+aliases: []
+creation_timestamp: 1736107198407
+current_stage: None
+description: ''
+last_updated_timestamp: 1736107198407
+name: Travel Price Prediction
+run_id: 967d9b8fdd6349f29c34ba4663905b29
+run_link: ''
+source: file:///C:/Users/jabcd/OneDrive/Desktop/All%20Desktop%20Folders/MLOps%20Project/mlruns/229904917682669617/967d9b8fdd6349f29c34ba4663905b29/artifacts/Random
+  Forest Model
+status: READY
+status_message: null
+storage_location: file:///C:/Users/jabcd/OneDrive/Desktop/All%20Desktop%20Folders/MLOps%20Project/mlruns/229904917682669617/967d9b8fdd6349f29c34ba4663905b29/artifacts/Random
+  Forest Model
+user_id: null
+version: 1

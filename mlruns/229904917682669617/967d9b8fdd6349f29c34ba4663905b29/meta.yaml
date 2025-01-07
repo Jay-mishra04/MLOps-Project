@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/jabcd/OneDrive/Desktop/All%20Desktop%20Folders/MLOps%20Project/mlruns/229904917682669617/967d9b8fdd6349f29c34ba4663905b29/artifacts
+end_time: 1736107131887
+entry_point_name: ''
+experiment_id: '229904917682669617'
+lifecycle_stage: active
+run_id: 967d9b8fdd6349f29c34ba4663905b29
+run_name: Random Forest Regression Model
+run_uuid: 967d9b8fdd6349f29c34ba4663905b29
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736107126182
+status: 3
+tags: []
+user_id: jabcd

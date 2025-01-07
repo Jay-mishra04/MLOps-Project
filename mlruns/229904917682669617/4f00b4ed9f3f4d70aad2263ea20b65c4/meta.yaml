@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/jabcd/OneDrive/Desktop/All%20Desktop%20Folders/MLOps%20Project/mlruns/229904917682669617/4f00b4ed9f3f4d70aad2263ea20b65c4/artifacts
+deleted_time: 1736107288336
+end_time: 1735937809360
+entry_point_name: ''
+experiment_id: '229904917682669617'
+lifecycle_stage: deleted
+run_id: 4f00b4ed9f3f4d70aad2263ea20b65c4
+run_name: Linear Regression Model
+run_uuid: 4f00b4ed9f3f4d70aad2263ea20b65c4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735937795009
+status: 3
+tags: []
+user_id: jabcd

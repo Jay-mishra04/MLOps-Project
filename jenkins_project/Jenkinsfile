@@ -11,83 +11,66 @@ pipeline {
 
         stage('Install Dependencies') {
             steps {
-                dir('jenkins_project') {
+                dir('jenkins_project') { // Navigate into the jenkins_project folder
                     echo "Installing Python dependencies..."
-                    bat 'python -m pip install --upgrade pip || exit 0' // Allow exit code 0
-                    bat 'pip install -r requirements.txt || exit 0'     // Allow exit code 0
+                    bat 'pip install -r requirements.txt'
                 }
             }
         }
 
         stage('Data Preprocessing') {
             steps {
-                dir('jenkins_project') {
-                    echo "Running data preprocessing script..."
-                    bat 'python data_preprocessing.py || exit 0'
+                dir('jenkins_project') { // Navigate into the jenkins_project folder
+                    echo "Running data preprocessing..."
+                    bat 'python data_preprocessing.py'
                 }
             }
         }
 
         stage('Train Model') {
             steps {
-                dir('jenkins_project') {
+                dir('jenkins_project') { // Navigate into the jenkins_project folder
                     echo "Training the model..."
-                    bat 'python train_model.py || exit 0'
+                    bat 'python train_model.py'
                 }
             }
         }
 
         stage('Test Model') {
             steps {
-                dir('jenkins_project') {
+                dir('jenkins_project') { // Navigate into the jenkins_project folder
                     echo "Testing the model..."
-                    bat 'python test_model.py || exit 0'
+                    bat 'python test_model.py'
                 }
             }
         }
 
         stage('Build Docker Image') {
             steps {
-                dir('jenkins_project') {
+                dir('jenkins_project') { // Navigate into the jenkins_project folder
                     echo "Building Docker image..."
-                    bat 'docker build -t travel-price-prediction . || exit 0'
+                    bat 'docker build -t travel-price-prediction .'
                 }
             }
         }
 
         stage('Run Docker Container') {
             steps {
-                dir('jenkins_project') {
+                dir('jenkins_project') { // Navigate into the jenkins_project folder
                     echo "Deploying the application via Docker..."
-
-                    // Stop and remove any existing container
-                    bat '''
-                        for /F "tokens=*" %i in ('docker ps -q --filter "name=travel-price-container"') do (
-                            docker stop %i && docker rm %i || echo "Container not found or already removed"
-                        )
-                    '''
+                    bat 'docker stop travel-price-container || exit 0 && docker rm travel-price-container || exit 0'
 
                     // Run the new container
-                    bat 'docker run -d --name travel-price-container -p 5000:5000 travel-price-prediction || exit 0'
+                    bat 'docker run -d --name travel-price-container -p 5000:5000 travel-price-prediction'
                 }
             }
         }
     }
 
     post {
-        always {
-            echo "Cleaning up exited containers..."
-            bat '''
-                for /F "tokens=*" %i in ('docker ps -q --filter "status=exited"') do (
-                    docker rm %i || echo "No exited containers to clean"
-                )
-            '''
-        }
-
         success {
             echo "Pipeline executed successfully! Application deployed."
         }
-
         failure {
             echo "Pipeline failed. Please check the logs for details."
         }

@@ -17,4 +17,9 @@ COPY . .
 EXPOSE 5000
 
 # command to run the application
+<<<<<<< HEAD
 CMD ["python", "app.py"]
+=======
+CMD ["python", "app.py"]]
+
+>>>>>>> 41a98ea034a0d490f48adab8358660f2fa4d649b

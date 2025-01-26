@@ -174,22 +174,22 @@ This project demonstrates the end-to-end implementation of MLOps practices to de
 ## Screenshots
 
 ### Travel Price Prediction REST API
-![Travel Price Prediction](image1.png)
+![Readme_Images](price.png)
 
 ### Docker Deployment
-![Docker Images](image2.png)
+![Readme_Images](docker.png)
 
 ### Kubernetes Deployment
-![Kubernetes Deployment](image3.png)
+![Readme_Images](K8.png)
 
 ### Apache Airflow DAGs
-![Apache Airflow](image4.png)
+![Readme_Images](apache.png)
 
 ### MLFlow Tracking
-![MLFlow](image5.png)
+![Readme_Images](mlflow.png)
 
 ### Hotel Recommendation System
-![Hotel Recommendation System](image6.png)
+![Readme_Images](stream.png)
 
 ---
 

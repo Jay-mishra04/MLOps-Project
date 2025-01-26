@@ -13,7 +13,7 @@ pipeline {
             steps {
                 dir('jenkins_project') {
                     echo "Installing Python dependencies..."
-                    bat 'python -m pip install --upgrade pip' // Upgrade pip first
+                    bat 'python -m pip install --upgrade pip'
                     bat 'pip install -r requirements.txt'
                 }
             }
@@ -62,7 +62,9 @@ pipeline {
 
                     // Stop and remove any existing container
                     bat '''
-                        docker ps -q --filter "name=travel-price-container" | findstr . && docker stop travel-price-container && docker rm travel-price-container || echo "No container to stop"
+                        for /F "tokens=*" %%i in ('docker ps -q --filter "name=travel-price-container"') do (
+                            docker stop %%i && docker rm %%i
+                        )
                     '''
 
                     // Run the new container
@@ -74,9 +76,11 @@ pipeline {
 
     post {
         always {
-            echo "Cleaning up any exited containers..."
+            echo "Cleaning up exited containers..."
             bat '''
-                docker ps -aq --filter "status=exited" | findstr . && docker rm $(docker ps -aq --filter "status=exited") || echo "No exited containers to clean"
+                for /F "tokens=*" %%i in ('docker ps -q --filter "status=exited"') do (
+                    docker rm %%i
+                )
             '''
         }
 

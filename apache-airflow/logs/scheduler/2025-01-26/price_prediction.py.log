@@ -1027,3 +1027,178 @@
 [2025-01-26T21:38:15.523+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:38:15.522+0000] {dag.py:2941} INFO - Sync 1 DAGs
 [2025-01-26T21:38:15.543+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:38:15.543+0000] {dag.py:3722} INFO - Setting next_dagrun for flight_price_prediction to 2025-01-26T00:00:00+00:00, run_after=2025-01-27T00:00:00+00:00
 [2025-01-26T21:38:15.583+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/price_prediction.py took 1.278 seconds
+[2025-01-26T21:38:45.896+0000] {processor.py:157} INFO - Started process (PID=3106) to work on /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:38:45.901+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/price_prediction.py for tasks to queue
+[2025-01-26T21:38:45.906+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:38:45.906+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:38:47.210+0000] {processor.py:839} INFO - DAG(s) dict_keys(['flight_price_prediction']) retrieved from /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:38:47.238+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:38:47.237+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-01-26T21:38:47.271+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:38:47.271+0000] {dag.py:3722} INFO - Setting next_dagrun for flight_price_prediction to 2025-01-26T00:00:00+00:00, run_after=2025-01-27T00:00:00+00:00
+[2025-01-26T21:38:47.296+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/price_prediction.py took 1.410 seconds
+[2025-01-26T21:39:17.643+0000] {processor.py:157} INFO - Started process (PID=3126) to work on /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:39:17.645+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/price_prediction.py for tasks to queue
+[2025-01-26T21:39:17.648+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:39:17.648+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:39:18.861+0000] {processor.py:839} INFO - DAG(s) dict_keys(['flight_price_prediction']) retrieved from /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:39:18.893+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:39:18.893+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-01-26T21:39:18.919+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:39:18.919+0000] {dag.py:3722} INFO - Setting next_dagrun for flight_price_prediction to 2025-01-26T00:00:00+00:00, run_after=2025-01-27T00:00:00+00:00
+[2025-01-26T21:39:19.077+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/price_prediction.py took 1.439 seconds
+[2025-01-26T21:39:49.596+0000] {processor.py:157} INFO - Started process (PID=3146) to work on /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:39:49.606+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/price_prediction.py for tasks to queue
+[2025-01-26T21:39:49.619+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:39:49.618+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:39:51.761+0000] {processor.py:839} INFO - DAG(s) dict_keys(['flight_price_prediction']) retrieved from /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:39:51.817+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:39:51.812+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-01-26T21:39:52.040+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:39:52.039+0000] {dag.py:3722} INFO - Setting next_dagrun for flight_price_prediction to 2025-01-26T00:00:00+00:00, run_after=2025-01-27T00:00:00+00:00
+[2025-01-26T21:39:52.089+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/price_prediction.py took 2.497 seconds
+[2025-01-26T21:40:22.210+0000] {processor.py:157} INFO - Started process (PID=3166) to work on /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:40:22.212+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/price_prediction.py for tasks to queue
+[2025-01-26T21:40:22.216+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:40:22.216+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:40:24.054+0000] {processor.py:839} INFO - DAG(s) dict_keys(['flight_price_prediction']) retrieved from /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:40:24.105+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:40:24.104+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-01-26T21:40:24.149+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:40:24.149+0000] {dag.py:3722} INFO - Setting next_dagrun for flight_price_prediction to 2025-01-26T00:00:00+00:00, run_after=2025-01-27T00:00:00+00:00
+[2025-01-26T21:40:24.185+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/price_prediction.py took 1.980 seconds
+[2025-01-26T21:40:55.022+0000] {processor.py:157} INFO - Started process (PID=3186) to work on /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:40:55.024+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/price_prediction.py for tasks to queue
+[2025-01-26T21:40:55.029+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:40:55.028+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:40:56.326+0000] {processor.py:839} INFO - DAG(s) dict_keys(['flight_price_prediction']) retrieved from /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:40:56.390+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:40:56.388+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-01-26T21:40:56.444+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:40:56.443+0000] {dag.py:3722} INFO - Setting next_dagrun for flight_price_prediction to 2025-01-26T00:00:00+00:00, run_after=2025-01-27T00:00:00+00:00
+[2025-01-26T21:40:56.525+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/price_prediction.py took 1.510 seconds
+[2025-01-26T21:41:27.123+0000] {processor.py:157} INFO - Started process (PID=3213) to work on /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:41:27.125+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/price_prediction.py for tasks to queue
+[2025-01-26T21:41:27.130+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:41:27.130+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:41:28.353+0000] {processor.py:839} INFO - DAG(s) dict_keys(['flight_price_prediction']) retrieved from /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:41:28.389+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:41:28.387+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-01-26T21:41:28.431+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:41:28.430+0000] {dag.py:3722} INFO - Setting next_dagrun for flight_price_prediction to 2025-01-26T00:00:00+00:00, run_after=2025-01-27T00:00:00+00:00
+[2025-01-26T21:41:28.710+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/price_prediction.py took 1.595 seconds
+[2025-01-26T21:41:59.003+0000] {processor.py:157} INFO - Started process (PID=3233) to work on /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:41:59.004+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/price_prediction.py for tasks to queue
+[2025-01-26T21:41:59.007+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:41:59.007+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:42:00.471+0000] {processor.py:839} INFO - DAG(s) dict_keys(['flight_price_prediction']) retrieved from /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:42:00.551+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:42:00.546+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-01-26T21:42:00.790+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:42:00.789+0000] {dag.py:3722} INFO - Setting next_dagrun for flight_price_prediction to 2025-01-26T00:00:00+00:00, run_after=2025-01-27T00:00:00+00:00
+[2025-01-26T21:42:00.820+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/price_prediction.py took 1.656 seconds
+[2025-01-26T21:42:31.447+0000] {processor.py:157} INFO - Started process (PID=3253) to work on /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:42:31.450+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/price_prediction.py for tasks to queue
+[2025-01-26T21:42:31.456+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:42:31.455+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:42:32.958+0000] {processor.py:839} INFO - DAG(s) dict_keys(['flight_price_prediction']) retrieved from /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:42:32.984+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:42:32.983+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-01-26T21:42:33.010+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:42:33.010+0000] {dag.py:3722} INFO - Setting next_dagrun for flight_price_prediction to 2025-01-26T00:00:00+00:00, run_after=2025-01-27T00:00:00+00:00
+[2025-01-26T21:42:33.060+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/price_prediction.py took 1.625 seconds
+[2025-01-26T21:43:03.385+0000] {processor.py:157} INFO - Started process (PID=3273) to work on /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:43:03.389+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/price_prediction.py for tasks to queue
+[2025-01-26T21:43:03.397+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:43:03.396+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:43:05.173+0000] {processor.py:839} INFO - DAG(s) dict_keys(['flight_price_prediction']) retrieved from /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:43:05.208+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:43:05.207+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-01-26T21:43:05.236+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:43:05.236+0000] {dag.py:3722} INFO - Setting next_dagrun for flight_price_prediction to 2025-01-26T00:00:00+00:00, run_after=2025-01-27T00:00:00+00:00
+[2025-01-26T21:43:05.293+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/price_prediction.py took 1.922 seconds
+[2025-01-26T21:43:35.859+0000] {processor.py:157} INFO - Started process (PID=3293) to work on /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:43:35.862+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/price_prediction.py for tasks to queue
+[2025-01-26T21:43:35.870+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:43:35.869+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:43:37.166+0000] {processor.py:839} INFO - DAG(s) dict_keys(['flight_price_prediction']) retrieved from /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:43:37.207+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:43:37.206+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-01-26T21:43:37.240+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:43:37.240+0000] {dag.py:3722} INFO - Setting next_dagrun for flight_price_prediction to 2025-01-26T00:00:00+00:00, run_after=2025-01-27T00:00:00+00:00
+[2025-01-26T21:43:37.269+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/price_prediction.py took 1.419 seconds
+[2025-01-26T21:44:07.800+0000] {processor.py:157} INFO - Started process (PID=3313) to work on /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:44:07.803+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/price_prediction.py for tasks to queue
+[2025-01-26T21:44:07.808+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:44:07.808+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:44:09.330+0000] {processor.py:839} INFO - DAG(s) dict_keys(['flight_price_prediction']) retrieved from /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:44:09.377+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:44:09.371+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-01-26T21:44:09.460+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:44:09.459+0000] {dag.py:3722} INFO - Setting next_dagrun for flight_price_prediction to 2025-01-26T00:00:00+00:00, run_after=2025-01-27T00:00:00+00:00
+[2025-01-26T21:44:09.524+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/price_prediction.py took 1.733 seconds
+[2025-01-26T21:44:40.225+0000] {processor.py:157} INFO - Started process (PID=3333) to work on /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:44:40.230+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/price_prediction.py for tasks to queue
+[2025-01-26T21:44:40.243+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:44:40.242+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:44:41.587+0000] {processor.py:839} INFO - DAG(s) dict_keys(['flight_price_prediction']) retrieved from /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:44:41.616+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:44:41.614+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-01-26T21:44:41.676+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:44:41.676+0000] {dag.py:3722} INFO - Setting next_dagrun for flight_price_prediction to 2025-01-26T00:00:00+00:00, run_after=2025-01-27T00:00:00+00:00
+[2025-01-26T21:44:41.713+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/price_prediction.py took 1.504 seconds
+[2025-01-26T21:45:11.956+0000] {processor.py:157} INFO - Started process (PID=3353) to work on /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:45:11.958+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/price_prediction.py for tasks to queue
+[2025-01-26T21:45:11.962+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:45:11.961+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:45:13.455+0000] {processor.py:839} INFO - DAG(s) dict_keys(['flight_price_prediction']) retrieved from /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:45:13.494+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:45:13.493+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-01-26T21:45:13.566+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:45:13.565+0000] {dag.py:3722} INFO - Setting next_dagrun for flight_price_prediction to 2025-01-26T00:00:00+00:00, run_after=2025-01-27T00:00:00+00:00
+[2025-01-26T21:45:13.656+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/price_prediction.py took 1.709 seconds
+[2025-01-26T21:45:43.952+0000] {processor.py:157} INFO - Started process (PID=3373) to work on /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:45:43.953+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/price_prediction.py for tasks to queue
+[2025-01-26T21:45:43.960+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:45:43.960+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:45:45.550+0000] {processor.py:839} INFO - DAG(s) dict_keys(['flight_price_prediction']) retrieved from /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:45:45.598+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:45:45.596+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-01-26T21:45:45.663+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:45:45.661+0000] {dag.py:3722} INFO - Setting next_dagrun for flight_price_prediction to 2025-01-26T00:00:00+00:00, run_after=2025-01-27T00:00:00+00:00
+[2025-01-26T21:45:45.712+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/price_prediction.py took 1.767 seconds
+[2025-01-26T21:46:15.885+0000] {processor.py:157} INFO - Started process (PID=3393) to work on /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:46:15.888+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/price_prediction.py for tasks to queue
+[2025-01-26T21:46:15.898+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:46:15.897+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:46:17.814+0000] {processor.py:839} INFO - DAG(s) dict_keys(['flight_price_prediction']) retrieved from /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:46:17.903+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:46:17.902+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-01-26T21:46:17.956+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:46:17.955+0000] {dag.py:3722} INFO - Setting next_dagrun for flight_price_prediction to 2025-01-26T00:00:00+00:00, run_after=2025-01-27T00:00:00+00:00
+[2025-01-26T21:46:17.981+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/price_prediction.py took 2.107 seconds
+[2025-01-26T21:46:48.565+0000] {processor.py:157} INFO - Started process (PID=3413) to work on /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:46:48.569+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/price_prediction.py for tasks to queue
+[2025-01-26T21:46:48.578+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:46:48.577+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:46:50.105+0000] {processor.py:839} INFO - DAG(s) dict_keys(['flight_price_prediction']) retrieved from /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:46:50.140+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:46:50.139+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-01-26T21:46:50.194+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:46:50.194+0000] {dag.py:3722} INFO - Setting next_dagrun for flight_price_prediction to 2025-01-26T00:00:00+00:00, run_after=2025-01-27T00:00:00+00:00
+[2025-01-26T21:46:50.270+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/price_prediction.py took 1.716 seconds
+[2025-01-26T21:47:20.870+0000] {processor.py:157} INFO - Started process (PID=3433) to work on /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:47:20.872+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/price_prediction.py for tasks to queue
+[2025-01-26T21:47:20.877+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:47:20.877+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:47:22.142+0000] {processor.py:839} INFO - DAG(s) dict_keys(['flight_price_prediction']) retrieved from /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:47:22.180+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:47:22.179+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-01-26T21:47:22.222+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:47:22.221+0000] {dag.py:3722} INFO - Setting next_dagrun for flight_price_prediction to 2025-01-26T00:00:00+00:00, run_after=2025-01-27T00:00:00+00:00
+[2025-01-26T21:47:22.264+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/price_prediction.py took 1.401 seconds
+[2025-01-26T21:47:52.525+0000] {processor.py:157} INFO - Started process (PID=3453) to work on /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:47:52.527+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/price_prediction.py for tasks to queue
+[2025-01-26T21:47:52.534+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:47:52.533+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:47:53.924+0000] {processor.py:839} INFO - DAG(s) dict_keys(['flight_price_prediction']) retrieved from /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:47:53.955+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:47:53.954+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-01-26T21:47:53.986+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:47:53.986+0000] {dag.py:3722} INFO - Setting next_dagrun for flight_price_prediction to 2025-01-26T00:00:00+00:00, run_after=2025-01-27T00:00:00+00:00
+[2025-01-26T21:47:54.009+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/price_prediction.py took 1.492 seconds
+[2025-01-26T21:48:24.206+0000] {processor.py:157} INFO - Started process (PID=3473) to work on /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:48:24.207+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/price_prediction.py for tasks to queue
+[2025-01-26T21:48:24.211+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:48:24.210+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:48:25.258+0000] {processor.py:839} INFO - DAG(s) dict_keys(['flight_price_prediction']) retrieved from /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:48:25.283+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:48:25.282+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-01-26T21:48:25.303+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:48:25.303+0000] {dag.py:3722} INFO - Setting next_dagrun for flight_price_prediction to 2025-01-26T00:00:00+00:00, run_after=2025-01-27T00:00:00+00:00
+[2025-01-26T21:48:25.327+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/price_prediction.py took 1.125 seconds
+[2025-01-26T21:48:55.675+0000] {processor.py:157} INFO - Started process (PID=3493) to work on /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:48:55.677+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/price_prediction.py for tasks to queue
+[2025-01-26T21:48:55.680+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:48:55.680+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:48:56.892+0000] {processor.py:839} INFO - DAG(s) dict_keys(['flight_price_prediction']) retrieved from /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:48:56.953+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:48:56.951+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-01-26T21:48:56.982+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:48:56.981+0000] {dag.py:3722} INFO - Setting next_dagrun for flight_price_prediction to 2025-01-26T00:00:00+00:00, run_after=2025-01-27T00:00:00+00:00
+[2025-01-26T21:48:57.004+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/price_prediction.py took 1.334 seconds
+[2025-01-26T21:49:27.224+0000] {processor.py:157} INFO - Started process (PID=3513) to work on /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:49:27.225+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/price_prediction.py for tasks to queue
+[2025-01-26T21:49:27.228+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:49:27.228+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:49:28.243+0000] {processor.py:839} INFO - DAG(s) dict_keys(['flight_price_prediction']) retrieved from /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:49:28.266+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:49:28.265+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-01-26T21:49:28.289+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:49:28.289+0000] {dag.py:3722} INFO - Setting next_dagrun for flight_price_prediction to 2025-01-26T00:00:00+00:00, run_after=2025-01-27T00:00:00+00:00
+[2025-01-26T21:49:28.310+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/price_prediction.py took 1.091 seconds
+[2025-01-26T21:49:58.760+0000] {processor.py:157} INFO - Started process (PID=3533) to work on /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:49:58.762+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/price_prediction.py for tasks to queue
+[2025-01-26T21:49:58.767+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:49:58.766+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:49:59.872+0000] {processor.py:839} INFO - DAG(s) dict_keys(['flight_price_prediction']) retrieved from /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:49:59.899+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:49:59.898+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-01-26T21:49:59.938+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:49:59.938+0000] {dag.py:3722} INFO - Setting next_dagrun for flight_price_prediction to 2025-01-26T00:00:00+00:00, run_after=2025-01-27T00:00:00+00:00
+[2025-01-26T21:49:59.969+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/price_prediction.py took 1.215 seconds
+[2025-01-26T21:50:30.361+0000] {processor.py:157} INFO - Started process (PID=3560) to work on /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:50:30.365+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/price_prediction.py for tasks to queue
+[2025-01-26T21:50:30.371+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:50:30.371+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:50:31.488+0000] {processor.py:839} INFO - DAG(s) dict_keys(['flight_price_prediction']) retrieved from /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:50:31.516+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:50:31.514+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-01-26T21:50:31.540+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:50:31.539+0000] {dag.py:3722} INFO - Setting next_dagrun for flight_price_prediction to 2025-01-26T00:00:00+00:00, run_after=2025-01-27T00:00:00+00:00
+[2025-01-26T21:50:31.559+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/price_prediction.py took 1.205 seconds
+[2025-01-26T21:51:02.045+0000] {processor.py:157} INFO - Started process (PID=3580) to work on /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:51:02.047+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/price_prediction.py for tasks to queue
+[2025-01-26T21:51:02.053+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:51:02.053+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:51:03.392+0000] {processor.py:839} INFO - DAG(s) dict_keys(['flight_price_prediction']) retrieved from /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:51:03.420+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:51:03.419+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-01-26T21:51:03.459+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:51:03.459+0000] {dag.py:3722} INFO - Setting next_dagrun for flight_price_prediction to 2025-01-26T00:00:00+00:00, run_after=2025-01-27T00:00:00+00:00
+[2025-01-26T21:51:03.490+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/price_prediction.py took 1.302 seconds
+[2025-01-26T21:51:33.734+0000] {processor.py:157} INFO - Started process (PID=3600) to work on /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:51:33.736+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/price_prediction.py for tasks to queue
+[2025-01-26T21:51:33.742+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:51:33.741+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:51:35.009+0000] {processor.py:839} INFO - DAG(s) dict_keys(['flight_price_prediction']) retrieved from /opt/airflow/dags/price_prediction.py
+[2025-01-26T21:51:35.051+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:51:35.050+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-01-26T21:51:35.075+0000] {logging_mixin.py:154} INFO - [2025-01-26T21:51:35.075+0000] {dag.py:3722} INFO - Setting next_dagrun for flight_price_prediction to 2025-01-26T00:00:00+00:00, run_after=2025-01-27T00:00:00+00:00
+[2025-01-26T21:51:35.096+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/price_prediction.py took 1.369 seconds

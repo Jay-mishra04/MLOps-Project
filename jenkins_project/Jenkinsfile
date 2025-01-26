@@ -1,18 +1,11 @@
 pipeline {
     agent any
+
     stages {
         stage('Clone Repository') {
             steps {
                 echo "Cloning the repository..."
                 git branch: 'main', url: 'https://github.com/Jay-mishra04/MLOps-Project'
-            }
-        }
-
-        stage('Navigate to Jenkins Project Folder') {
-            steps {
-                dir('jenkins_project') {
-                    echo 'Inside Jenkins project folder...'
-                }
             }
         }
 
@@ -66,12 +59,12 @@ pipeline {
             steps {
                 dir('jenkins_project') {
                     echo "Deploying the application via Docker..."
-                    
-                    // Stop and remove any existing container gracefully
+
+                    // Stop and remove any existing container
                     bat '''
                         docker ps -q --filter "name=travel-price-container" | findstr . && docker stop travel-price-container && docker rm travel-price-container || echo "No container to stop"
                     '''
-                    
+
                     // Run the new container
                     bat 'docker run -d --name travel-price-container -p 5000:5000 travel-price-prediction'
                 }
@@ -80,9 +73,17 @@ pipeline {
     }
 
     post {
+        always {
+            echo "Cleaning up any exited containers..."
+            bat '''
+                docker ps -aq --filter "status=exited" | findstr . && docker rm $(docker ps -aq --filter "status=exited") || echo "No exited containers to clean"
+            '''
+        }
+
         success {
             echo "Pipeline executed successfully! Application deployed."
         }
+
         failure {
             echo "Pipeline failed. Please check the logs for details."
         }

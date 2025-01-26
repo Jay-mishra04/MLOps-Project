@@ -6,14 +6,14 @@ import seaborn as sns
 # Load the dataset
 @st.cache_data
 def load_data():
-    return pd.read_csv('hotel_features.csv')  # Replace with your dataset file name
+    return pd.read_csv('hotel_features.csv') 
 
 hotel_features = load_data()
 
 # Load users hotel history for insights
 @st.cache_data
 def load_users_hotel_data():
-    return pd.read_csv("users_hotel_history.csv")  # Replace with your dataset file name
+    return pd.read_csv("users_hotel_history.csv")  
 
 users_hotel = load_users_hotel_data()
 

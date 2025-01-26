@@ -1,7 +1,7 @@
-# official Python 3.12 slim image
+# Use official Python 3.12 slim image
 FROM python:3.12-slim
 
-# working directory in the container
+# Set the working directory in the container
 WORKDIR /myapp
 
 # Copy only the requirements file first
@@ -13,13 +13,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy the rest of the application files
 COPY . .
 
-# Expose the port 
+# Expose the port your application will use
 EXPOSE 5000
 
-# command to run the application
-<<<<<<< HEAD
+# Use CMD in JSON format for the application entry point
 CMD ["python", "app.py"]
-=======
-CMD ["python", "app.py"]]
-
->>>>>>> 41a98ea034a0d490f48adab8358660f2fa4d649b
